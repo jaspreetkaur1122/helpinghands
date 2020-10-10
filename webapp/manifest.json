@@ -1,0 +1,243 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "com.sap.build.standard.untitledPrototype",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.2.2"
+		},
+		"dataSources": {
+			"local": {
+				"uri": "/here/goes/your/serviceUrl/local/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"ach": "ach",
+		"resources": "resources.json",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.32.0"
+		}
+	},
+	"sap.ui": {
+		"_version": "1.3.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"_version": "1.3.0",
+		"rootView": {
+			"viewName": "generated.app.view.Log",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.50.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
+			},
+			"": {
+				"dataSource": "local",
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"loadMetadataAsync": false,
+					"json": true,
+					"bJSON": true,
+					"defaultBindingMode": "TwoWay",
+					"defaultCountMode": "Inline",
+					"useBatch": true,
+					"refreshAfterChange": false,
+					"disableHeadRequestForToken": true
+				}
+			}
+		},
+		"resources": {
+			"css": []
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "com.sap.build.standard.untitledPrototype.view",
+				"controlId": "App",
+				"clearTarget": false,
+				"controlAggregation": "pages",
+				"bypassed": {
+					"target": [
+						"Main"
+					]
+				}
+			},
+			"targets": {
+				"Main": {
+					"controlAggregation": "pages",
+					"viewName": "Main",
+					"viewId": "Main",
+					"viewLevel": 2,
+					"transition": "slide"
+				},
+				"Register": {
+					"controlAggregation": "pages",
+					"viewName": "Register",
+					"viewId": "Register",
+					"viewLevel": 10,
+					"transition": "slide"
+				},
+				"Home": {
+					"controlAggregation": "pages",
+					"viewName": "Home",
+					"viewId": "Home",
+					"viewLevel": 3,
+					"transition": "slide"
+				},
+				"Barista": {
+					"controlAggregation": "pages",
+					"viewName": "Barista",
+					"viewId": "Barista",
+					"viewLevel": 9,
+					"transition": "slide"
+				},
+				"House": {
+					"controlAggregation": "pages",
+					"viewName": "House",
+					"viewId": "House",
+					"viewLevel": 6,
+					"transition": "slide"
+				},
+				"Map": {
+					"controlAggregation": "pages",
+					"viewName": "Map",
+					"viewId": "Map",
+					"viewLevel": 8,
+					"transition": "slide"
+				},
+				"Ratings": {
+					"controlAggregation": "pages",
+					"viewName": "Ratings",
+					"viewId": "Ratings",
+					"viewLevel": 4,
+					"transition": "slide"
+				},
+				"Review": {
+					"controlAggregation": "pages",
+					"viewName": "Review",
+					"viewId": "Review",
+					"viewLevel": 5,
+					"transition": "slide"
+				},
+				"HousePhotos": {
+					"controlAggregation": "pages",
+					"viewName": "HousePhotos",
+					"viewId": "HousePhotos",
+					"viewLevel": 7,
+					"transition": "slide"
+				},
+				"Log": {
+					"controlAggregation": "pages",
+					"viewName": "Log",
+					"viewId": "Log",
+					"viewLevel": 1,
+					"transition": "slide"
+				}
+			},
+			"routes": [{
+				"pattern": "Main/:context:",
+				"name": "Main",
+				"target": [
+					"Main"
+				]
+			}, {
+				"pattern": "",
+				"name": "default",
+				"target": [
+					"Main"
+				]
+			}, {
+				"pattern": "Register/:context:",
+				"name": "Register",
+				"target": [
+					"Register"
+				]
+			}, {
+				"pattern": "Home/:context:",
+				"name": "Home",
+				"target": [
+					"Home"
+				]
+			}, {
+				"pattern": "Barista/:context:",
+				"name": "Barista",
+				"target": [
+					"Barista"
+				]
+			}, {
+				"pattern": "House/:context:",
+				"name": "House",
+				"target": [
+					"House"
+				]
+			}, {
+				"pattern": "Map/:context:",
+				"name": "Map",
+				"target": [
+					"Map"
+				]
+			}, {
+				"pattern": "Ratings/:context:",
+				"name": "Ratings",
+				"target": [
+					"Ratings"
+				]
+			}, {
+				"pattern": "Review/:context:",
+				"name": "Review",
+				"target": [
+					"Review"
+				]
+			}, {
+				"pattern": "HousePhotos/:context:",
+				"name": "HousePhotos",
+				"target": [
+					"HousePhotos"
+				]
+			}, {
+				"pattern": "Log/:context:",
+				"name": "Log",
+				"target": [
+					"Log"
+				]
+			}]
+		}
+	}
+}

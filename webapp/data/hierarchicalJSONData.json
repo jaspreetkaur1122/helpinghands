@@ -1,0 +1,62 @@
+{
+	"static": {},
+	"combined": {
+		"JOBSSet": [{
+			"ID": "1023",
+			"JOBTYPE": "CASUAL",
+			"LOCATION": "SYDNEY",
+			"SALARY": "$32/HR",
+			"POSITION": "BARISTA",
+			"TODO": "ake control over the coffee section Represent Girdlers as a coffee team leader Ensure that every beverage is meeting Girdlers standards Ensure that all the baristas are trained appropriately to their position Ensure all coffee staff are aware of their duties and what is expected of them Train staff in closing, opening and all procedures involved in daily operations Monitor the performance of  coffee staff to ensure all tasks are done as required",
+			"EXPEREINCE": "Minimum 3 years of experience in a similar role Great communication and interpersonal skills Strong organisational and time management skills Lead by example Bring a can-do attitude to work every day. Respect your colleagues and guests"
+		}, {
+			"ID": "1024",
+			"JOBTYPE": "FULL TIME",
+			"LOCATION": "NEWCASTLE",
+			"SALARY": "$41/HR",
+			"POSITION": "WAREHOUSE PICK PACKER",
+			"TODO": null,
+			"EXPEREINCE": null
+		}, {
+			"ID": "1028",
+			"JOBTYPE": "PART TIME",
+			"LOCATION": "SYDNEY",
+			"SALARY": "$28/HR",
+			"POSITION": "BUS DRIVER",
+			"TODO": null,
+			"EXPEREINCE": null
+		}],
+		"HOUSESet": [{
+			"ID": "101",
+			"TYPE": "HOUSE",
+			"RENT": "$400",
+			"ACCOMODATIONTYPE": "LEASE",
+			"LOCATION": "BONDI",
+			"PARKING": "2 CARS",
+			"INFO": "Property features: * 2 Spacious bedrooms with build in wardrobes ( Main bedroom with Ensuite ) * Combined Living and Dining area leading to a sun filled balcony * Spacious Large balcony * Modern kitchen with Gas Cooking, Stone Bench & Dishwasher * Internal Laundry with Dryer * Built-in Wardrobe in all rooms * Ducted air conditioning * Security building with intercom * Lift access"
+		}, {
+			"ID": "102",
+			"TYPE": "ROOM",
+			"RENT": "$150",
+			"ACCOMODATIONTYPE": "SHARE HOUSE",
+			"LOCATION": "REDFERN",
+			"PARKING": "NO",
+			"INFO": null
+		}, {
+			"ID": "103",
+			"TYPE": "UNIT",
+			"RENT": "$350",
+			"ACCOMODATIONTYPE": "LEASE",
+			"LOCATION": "BLACKTOWN",
+			"PARKING": "1 CAR",
+			"INFO": null
+		}],
+		"RATESet": [{
+			"ID": "LIKES",
+			"NUMBER": "87"
+		}, {
+			"ID": "DISLIKES",
+			"NUMBER": "10"
+		}]
+	}
+}

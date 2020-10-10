@@ -1,0 +1,44 @@
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="05aab1ab77f29ab4144318d6" xml:lang="en" sap:schema-version="0000" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityContainer Name="05aab1ab77f29ab4144318d6_Entities" m:IsDefaultEntityContainer="true">
+				<EntitySet Name="JOBSSet" EntityType="05aab1ab77f29ab4144318d6.JOBS" sap:creatable="true" sap:updatable="true" sap:deletable="true"/>
+				<EntitySet Name="HOUSESet" EntityType="05aab1ab77f29ab4144318d6.HOUSE" sap:creatable="true" sap:updatable="true" sap:deletable="true"/>
+				<EntitySet Name="RATESet" EntityType="05aab1ab77f29ab4144318d6.RATE" sap:creatable="true" sap:updatable="true" sap:deletable="true"/>
+			</EntityContainer>
+			<EntityType Name="JOBS">
+				<Key>
+					<PropertyRef Name="ID"/>
+				</Key>
+				<Property Name="ID" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="ID"/>
+				<Property Name="JOBTYPE" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="DefaultName"/>
+				<Property Name="LOCATION" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="LOCATION"/>
+				<Property Name="SALARY" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="SALARY"/>
+				<Property Name="POSITION" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="POSITION"/>
+				<Property Name="TODO" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="REQUIREMENTS"/>
+				<Property Name="EXPEREINCE" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="EXPEREINCE"/>
+			</EntityType>
+			<EntityType Name="HOUSE">
+				<Key>
+					<PropertyRef Name="ID"/>
+				</Key>
+				<Property Name="ID" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="ID"/>
+				<Property Name="TYPE" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="TYPE"/>
+				<Property Name="RENT" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="RENT"/>
+				<Property Name="ACCOMODATIONTYPE" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true"
+					sap:label="ACCOMODATIONTYPE"/>
+				<Property Name="LOCATION" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="LOCATION"/>
+				<Property Name="PARKING" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="PARKING"/>
+				<Property Name="INFO" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="INFO"/>
+			</EntityType>
+			<EntityType Name="RATE">
+				<Key>
+					<PropertyRef Name="ID"/>
+				</Key>
+				<Property Name="ID" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="ID"/>
+				<Property Name="NUMBER" Type="Edm.String" sap:creatable="true" sap:updatable="true" sap:deletable="true" sap:label="NUMBER"/>
+			</EntityType>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

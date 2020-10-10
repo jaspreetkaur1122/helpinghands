@@ -1,0 +1,25 @@
+[{
+	"ID": "101",
+	"TYPE": "HOUSE",
+	"RENT": "$400",
+	"ACCOMODATIONTYPE": "LEASE",
+	"LOCATION": "BONDI",
+	"PARKING": "2 CARS",
+	"INFO": "Property features: * 2 Spacious bedrooms with build in wardrobes ( Main bedroom with Ensuite ) * Combined Living and Dining area leading to a sun filled balcony * Spacious Large balcony * Modern kitchen with Gas Cooking, Stone Bench & Dishwasher * Internal Laundry with Dryer * Built-in Wardrobe in all rooms * Ducted air conditioning * Security building with intercom * Lift access"
+}, {
+	"ID": "102",
+	"TYPE": "ROOM",
+	"RENT": "$150",
+	"ACCOMODATIONTYPE": "SHARE HOUSE",
+	"LOCATION": "REDFERN",
+	"PARKING": "NO",
+	"INFO": ""
+}, {
+	"ID": "103",
+	"TYPE": "UNIT",
+	"RENT": "$350",
+	"ACCOMODATIONTYPE": "LEASE",
+	"LOCATION": "BLACKTOWN",
+	"PARKING": "1 CAR",
+	"INFO": ""
+}]

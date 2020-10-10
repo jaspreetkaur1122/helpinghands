@@ -1,0 +1,25 @@
+[{
+	"ID": "1023",
+	"JOBTYPE": "CASUAL",
+	"LOCATION": "SYDNEY",
+	"SALARY": "$32/HR",
+	"POSITION": "BARISTA",
+	"TODO": "ake control over the coffee section Represent Girdlers as a coffee team leader Ensure that every beverage is meeting Girdlers standards Ensure that all the baristas are trained appropriately to their position Ensure all coffee staff are aware of their duties and what is expected of them Train staff in closing, opening and all procedures involved in daily operations Monitor the performance of  coffee staff to ensure all tasks are done as required",
+	"EXPEREINCE": "Minimum 3 years of experience in a similar role Great communication and interpersonal skills Strong organisational and time management skills Lead by example Bring a can-do attitude to work every day. Respect your colleagues and guests"
+}, {
+	"ID": "1024",
+	"JOBTYPE": "FULL TIME",
+	"LOCATION": "NEWCASTLE",
+	"SALARY": "$41/HR",
+	"POSITION": "WAREHOUSE PICK PACKER",
+	"TODO": "",
+	"EXPEREINCE": ""
+}, {
+	"ID": "1028",
+	"JOBTYPE": "PART TIME",
+	"LOCATION": "SYDNEY",
+	"SALARY": "$28/HR",
+	"POSITION": "BUS DRIVER",
+	"TODO": "",
+	"EXPEREINCE": ""
+}]

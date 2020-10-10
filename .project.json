@@ -1,0 +1,34 @@
+{
+	"dataBinding": {
+		"/webapp/view/Main.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/Register.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/Home.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/Barista.view.xml": {
+			"entitySet": "/JOBSSet"
+		},
+		"/webapp/view/House.view.xml": {
+			"entitySet": "/HOUSESet"
+		},
+		"/webapp/view/Map.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/Ratings.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/Review.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/HousePhotos.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/Log.view.xml": {
+			"entitySet": ""
+		}
+	}
+}

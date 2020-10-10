@@ -1,0 +1,60 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.untitledPrototype.controller.HousePhotos" xmlns="sap.m"
+	xmlns:layout="sap.ui.commons.layout">
+	<Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+		<content>
+			<layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+				<layout:positions>
+					<layout:PositionContainer left="3px" top="4px">
+						<layout:control>
+							<Button text="BACK" type="Back" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer left="0px" top="38px">
+						<layout:control>
+							<Carousel height="400px" width="100%" loop="true" showPageIndicator="true" pageIndicatorPlacement="Bottom" visible="true"
+								class="sapUiContentPadding">
+								<pages>
+									<Image src="/webapp/resources/HPH4.jpg" height="236.8px" width="320px" visible="true" densityAware="false"/>
+									<Image src="/webapp/resources/HPH2.jpg" height="236.8px" width="320px" visible="true" densityAware="false"/>
+									<Image src="/webapp/resources/HPH3.jpg" height="236.8px" width="320px" visible="true" densityAware="false"/>
+									<Image src="/webapp/resources/HPH1.jpg" height="236.8px" width="320px" visible="true" densityAware="false"/>
+								</pages>
+							</Carousel>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer left="10px" top="444px">
+						<layout:control>
+							<MessageStrip text="THE PHOTOS MAY VARY A LITTLE FROM ORIGINAL HOUSE APPERANCE" type="Error" customIcon="" showIcon="false"
+								showCloseButton="false" visible="true">
+								<link/>
+							</MessageStrip>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer left="46px" top="507px">
+						<layout:control>
+							<StepInput value="0" min="0" max="10" step="1" largerStep="2" displayValuePrecision="0" width="auto" valueState="None" editable="true"
+								enabled="true" visible="true"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer left="111px" top="522px">
+						<layout:control>
+							<Label text="BRIGHTNESS" design="Standard" width="106px" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+						</layout:control>
+					</layout:PositionContainer>
+				</layout:positions>
+			</layout:AbsoluteLayout>
+		</content>
+		<footer>
+			<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content>
+					<ToolbarSpacer width=""/>
+					<Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+					<Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+				</content>
+			</OverflowToolbar>
+		</footer>
+		<headerContent/>
+		<subHeader/>
+		<customHeader/>
+	</Page>
+</mvc:View>

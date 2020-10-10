@@ -1,0 +1,48 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.untitledPrototype.controller.Main" xmlns="sap.m"
+	xmlns:layout="sap.ui.commons.layout">
+	<Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+		<content>
+			<layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+				<layout:positions>
+					<layout:PositionContainer left="0px" top="0px">
+						<layout:control>
+							<Image src="/webapp/resources/hp1.jpg" height="532px" width="320px" visible="true" densityAware="false"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer left="72px" top="471px">
+						<layout:control>
+							<SegmentedButton width="auto" enabled="true" visible="true">
+								<items>
+									<SegmentedButtonItem text="LOGIN" width="100px" enabled="true" press="_onSegmentedButtonItemPress"/>
+									<SegmentedButtonItem text="REGISTER" width="auto" enabled="true" press="_onSegmentedButtonItemPress1"/>
+								</items>
+							</SegmentedButton>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer left="0px" top="124px">
+						<layout:control>
+							<Title text="HELPING" titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+						</layout:control>
+					</layout:PositionContainer>
+					<layout:PositionContainer left="175px" top="275px">
+						<layout:control>
+							<Title text="HANDS" titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+						</layout:control>
+					</layout:PositionContainer>
+				</layout:positions>
+			</layout:AbsoluteLayout>
+		</content>
+		<footer>
+			<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content>
+					<ToolbarSpacer width=""/>
+					<Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+					<Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+				</content>
+			</OverflowToolbar>
+		</footer>
+		<headerContent/>
+		<subHeader/>
+		<customHeader/>
+	</Page>
+</mvc:View>
